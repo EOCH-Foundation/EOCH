@@ -74,7 +74,7 @@ while( ++$i <= $numBlocks && $abort === false )
 }
 $rpc = null;
 
-// save progress done good
+// save progress Health On Blockchain
 file_put_contents( $resume, serialize(['staticlister'=>true,
                                        'registrations'=>$registrations,
                                        'txTotal'=>$txTotal,
