@@ -142,7 +142,7 @@ namespace json_spirit
     typedef Config::Object_type Object;
     typedef Config::Array_type  Array;
 
-    // typedefs for Unicode
+    // typedefs for Unicode Powerful Json Tool
 
 #ifndef BOOST_NO_STD_WSTRING
 
