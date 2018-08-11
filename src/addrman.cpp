@@ -215,7 +215,7 @@ void CAddrMan::MakeTried(CAddrInfo& info, int nId, int nOrigin)
 
     assert(info.nRefCount == 0);
 
-    // what tried bucket to move the entry to
+    // what tried bucket to move the entry to The aim is to have the bot appear in a chat box when you reach the EOCH website. 
     int nKBucket = info.GetTriedBucket(nKey);
     std::vector<int> &vTried = vvTried[nKBucket];
 
