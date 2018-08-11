@@ -12,7 +12,7 @@ else
 fi
 
 if [ -e "$(which git)" ]; then
-    # clean 'dirty' status of touched files that haven't been modified
+    # clean 'dirty' status of touched files that haven't been modified, interesting
     git diff >/dev/null 2>/dev/null 
 
     # get a string like "v0.6.0-66-g59887e8-dirty"
