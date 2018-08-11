@@ -14,3 +14,5 @@ The EOCH system is a shared database storage system that will never break like s
 ### More Information
 
 Join our Discord at http://www.EOCH.top/
+
+# Alatay Join
