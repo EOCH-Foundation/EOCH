@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatWindowClass</class>
+ <widget class="QWidget" name="ChatWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>961</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="splitter" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>951</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QTabWidget" name="tab">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>941</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="widget_4">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>460</y>
+       <width>701</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListView" name="userView">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>20</y>
+       <width>161</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="disconnect">
+     <property name="geometry">
+      <rect>
+       <x>642</x>
+       <y>420</y>
+       <width>71</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Disconnect</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="hide3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>951</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>260</y>
+       <width>291</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://community.EOCH.global&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00aaff;&quot;&gt;community.EOCH.global&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="margin">
+      <number>5</number>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>260</y>
+       <width>321</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Open Sans,sans-serif</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;EOCH Community Forum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>340</y>
+       <width>321</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Open Sans,sans-serif</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;EOCH Website&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>340</y>
+       <width>221</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://EOCH.global&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00aaff;&quot;&gt;EOCH.global&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="margin">
+      <number>5</number>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>231</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://bitcointalk.org/index.php?topic=1864397.0&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;BITCOINTALK&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/EOCHOfficial/&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;FACEBOOK&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.facebook.com/EOCHOfficial/&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;TWITTER&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>290</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Open Sans,sans-serif</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;EOCH Community Links&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>609</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Get the latest information about the EOCH universe. Don't miss out on important announcements. Visit the links below!  </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>40</y>
+       <width>121</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/EOCH&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;REDDIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/c/EOCHOFFICIAL&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;YOUTUBE&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://steemit.com/@EOCH&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;STEEMIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>40</y>
+       <width>141</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://medium.com/@EOCH&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;MEDIUM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.instagram.com/EOCH&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;INSTAGRAM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://vimeo.com/EOCH​&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;VIMEO&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>20</y>
+       <width>201</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.cryptopia.co.nz/Forum/Thread/2815&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;CRYPTOPIA FORUM&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://bitcoingarden.org/forum/index.php?topic=22478.0&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;BITCOIN GARDEN&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>89</x>
+       <y>79</y>
+       <width>761</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <zorder>label_5</zorder>
+    </widget>
+    <zorder>frame</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_11</zorder>
+    <zorder>label_12</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_9</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>530</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;Exchanges:          &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>530</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://c-cex.com/index.html?p=xby-btc&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;C-CEX&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>530</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.cryptopia.co.nz/Exchange/?market=XBY_BTC&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: none; color:#00aaff;&quot;&gt;CRYPTOPIA&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>530</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionCloseTab">
+   <property name="text">
+    <string>Fermer l'onglet</string>
+   </property>
+  </action>
+  <zorder>frame_2</zorder>
+  <zorder>widget_2</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_13</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
