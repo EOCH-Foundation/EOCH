@@ -8,7 +8,7 @@
 
 $rpcUser = 'REPLACE!!!';
 $rpcPass = 'REPLACE!!!';
-$rpcHost = '127.0.0.1';
+$rpcHost = '192.68.0.11';
 $rpcPort = 34001;
 
 $abort = false;
