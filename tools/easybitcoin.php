@@ -182,7 +182,7 @@ class Bitcoin {
             $this->error = $this->response['error']['message'];
         }
         elseif ($this->status != 200) {
-            // If bitcoind didn't return a nice error message, we need to make our own
+            // If bitcoind didn't return a nice error message, 
             switch ($this->status) {
                 case 400:
                     $this->error = 'HTTP_BAD_REQUEST';
